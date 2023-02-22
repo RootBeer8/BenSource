@@ -1,7 +1,7 @@
 html,body{
     margin: 0;
     padding: 0;
-    background: url(/pictures/login\ background.jpeg);
+    background: url(/bensource/pictures/login\ background.jpeg);
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
@@ -50,7 +50,7 @@ form{
     margin-bottom: 20px;
 }
 
-.loginMain input[type = "user"], input[type="password"]{
+.loginMain input[id = "user"], input[id = "password"]{
     border: 1px solid rgba(128, 128, 128, 0.382);
     background: transparent;
     height: 40px;
